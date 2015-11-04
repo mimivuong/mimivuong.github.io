@@ -1,0 +1,69 @@
+body {
+  font-family: "HelveticaNeue-Light";
+  font-size: 3em;
+  color: #282735;
+}
+
+section {
+  width: 100%;
+  padding: 0;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #E9DCCA;
+  height: 100%;
+
+  &:nth-of-type(2n) {
+  background-color: #E9DCCA;
+  }
+}
+
+.content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.do-the-thing {
+  font-size: 0.25em;
+  text-align: center;
+}
+
+.container{
+  width: 100%;
+  z-index: 2;
+}
+/* no dot = its own element and with a dot , its a class */
+footer {
+  /* top right bottom left */
+  padding: 1em 0 1em 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.parallax-background {
+  background-image: url(img/cali.JPG);
+  height: 620px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+}
+
+.intro-text {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  margin-top: 15%;
+}
+.parallax-content {
+  max-width: 100%;
+  position: relative;
+  top: 500px;
+  padding: 50px;
+  font-size: 20px;
+  background-color: #fff;
+}
