@@ -1,9 +1,12 @@
 body {
   font-family: "HelveticaNeue-Light";
-  line-height: 3;
   font-size: 3em;
   color: #282735;
   padding-top: 100px;
+}
+
+p {
+  line-height: 4;
 }
 
 section {
