@@ -34,6 +34,10 @@ section {
   padding-bottom: 2em;
 }
 
+.header {
+  letter-spacing: 1em;
+}
+
 .content {
   display: table-cell;
   vertical-align: middle;
