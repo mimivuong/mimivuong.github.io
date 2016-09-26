@@ -39,10 +39,6 @@ section {
   letter-spacing: 0.15em;
 }
 
-.header-2 {
-  font-size: 1em;
-}
-
 ::selection {
   background-color: #000;
   color: #fff;
