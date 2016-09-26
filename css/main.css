@@ -25,6 +25,11 @@ section {
   }
 }
 
+.title {
+  font-size: 1.25em;
+  padding-bottom: 2em;
+}
+
 .content {
   display: table-cell;
   vertical-align: middle;
