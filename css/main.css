@@ -1,6 +1,6 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 1em;
   color: #282735;
   padding-top: 100px;
@@ -26,7 +26,8 @@ section {
 }
 
 .title {
-  font-size: 1em;
+  font-weight: 400;
+  font-size: 1.5em;
   padding-bottom: 2em;
 }
 
