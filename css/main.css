@@ -39,6 +39,10 @@ section {
   letter-spacing: 0.15em;
 }
 
+.ysdn {
+  font-size: 0.5em;
+}
+
 ::selection {
   background-color: #000;
   color: #fff;
