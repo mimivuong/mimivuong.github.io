@@ -1,13 +1,13 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 3em;
+  font-size: 1.5em;
   color: #282735;
   padding-top: 100px;
 }
 
 p {
-  line-height: 2;
+  line-height: 0.5em;
   font-family: 'Roboto', sans-serif;
 }
 
