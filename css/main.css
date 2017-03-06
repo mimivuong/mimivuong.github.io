@@ -43,6 +43,10 @@ section {
   letter-spacing: 0.15em;
 }
 
+.footer {
+	margin-top: 2em;
+}
+
 .ysdn {
   font-size: 0.80em;
 }
