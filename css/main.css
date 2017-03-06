@@ -43,9 +43,9 @@ section {
   letter-spacing: 0.15em;
 }
 
-footer {
+.footer {
 	margin-top: 2em;
-	font-size: 1.5em;
+	font-size: 0.5em;
 }
 
 .ysdn {
