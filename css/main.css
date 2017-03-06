@@ -43,8 +43,8 @@ section {
   letter-spacing: 0.15em;
 }
 
-.footer {
-	margin-top: 2em;
+footer {
+	padding: 1em 0 1em 0;
 	font-size: 0.5em;
 }
 
@@ -104,11 +104,13 @@ a {
   width: 100%;
   z-index: 2;
 }
-/* no dot = its own element and with a dot , its a class */
+
+/* no dot = its own element and with a dot , its a class
 footer {
-  /* top right bottom left */
+  top right bottom left
   padding: 1em 0 1em 0;
   background-color: #000;
   color: #fff;
 }
+*/
 
