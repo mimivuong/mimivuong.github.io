@@ -1,22 +1,26 @@
-// This has to be the same animation duration value set for .animated class.
-var animationDuration = 1000; 
+var $animation_elements = $('.animation-element');
+var $window = $(window);
 
-// Set opacity to 0 immediately to prevent flashing on page load.
-$('.main').css('opacity', '0');
+function check_if_in_view() {
+  var window_height = $window.height();
+  var window_top_position = $window.scrollTop();
+  var window_bottom_position = (window_top_position + window_height);
 
-window.onload = function() {
-  $('.main').css('opacity', '1').addClass('animated fadeInUp');
+  $.each($animation_elements, function() {
+    var $element = $(this);
+    var element_height = $element.outerHeight();
+    var element_top_position = $element.offset().top;
+    var element_bottom_position = (element_top_position + element_height);
+
+    //check to see if this current container is within viewport
+    if ((element_bottom_position >= window_top_position) &&
+      (element_top_position <= window_bottom_position)) {
+      $element.addClass('in-view');
+    } else {
+      $element.removeClass('in-view');
+    }
+  });
 }
 
-$('a').click(function(e) {
-  if (e.currentTarget.target === '_blank') {
-    return;
-  }
-
-  e.preventDefault();
-
-  $('.main').removeClass('fadeInUp').addClass('fadeOutDown');
-  setTimeout(function() {
-    window.location.href = e.currentTarget.href;
-  }, animationDuration)
-});
+$window.on('scroll resize', check_if_in_view);
+$window.trigger('scroll');
