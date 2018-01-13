@@ -302,11 +302,11 @@ ul:hover > li:not(:hover) {
 
   .title {
     transition: 250ms;
-    font-size: 1.5em;
-    padding-top: 3em;
+    font-size: 1.4em;
+    padding-top: 3.5em;
     padding-bottom: 1em;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
   }
 
   .subtitle {
