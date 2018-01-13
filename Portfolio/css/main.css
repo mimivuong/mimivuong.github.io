@@ -1,0 +1,325 @@
+/*******
+**BODY**
+*******/
+body {
+  background-color: #323335;
+  font-family: 'neuzeit-grotesk', 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 1.1em;
+  color: #DDDDDD;
+}
+
+p {
+  transition: 250ms;
+  font-family: 'neuzeit-grotesk', 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.8em;
+  color: #DDDDDD;
+}
+
+/**********
+***VIDEO***
+**********/
+.videoWrapper {
+  transition: 250ms;
+}
+
+.videoWrapper iframe {
+  transition: 250ms;
+}
+
+/*********
+**HEADER**
+*********/
+.navigation {
+  transition: 250ms;
+  z-index: 1;
+  position: fixed;
+  width: 100%; /* Crucial, especially when position is fixed */
+  padding-top: 4em;
+}
+
+.logo {
+  float: left;
+  padding-left: 3em;
+}
+
+ul {
+  padding-right: 3em;
+  }
+
+li {
+    display: inline;
+    float: right;
+    padding-left: 1.5em;
+  }
+
+/**********
+***LINKS***
+**********/
+/* Default Links */
+a {
+  color: #FFF;
+  text-decoration: none;
+  background: none;
+  -o-transition:color .2s ease-out, background 1s ease-in;
+  -ms-transition:color .2s ease-out, background 1s ease-in;
+  -moz-transition:color .2s ease-out, background 1s ease-in;
+  -webkit-transition:color .2s ease-out, background 1s ease-in;
+  /* ...and now override with proper CSS property */
+  transition:color .2s ease-out, background 1s ease-in;
+  }
+
+a.hover {
+  color: #DDD;
+  cursor: pointer;
+}
+
+a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #DDD;
+  transition: 0.4s;
+}
+
+a:hover:after {
+  width: 100%;
+}
+/* Links Inside <p></p> */
+p a {
+      text-decoration: none;
+      position: relative;
+}
+
+p a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #DDD;
+  transition: 0.4s;
+}
+
+p a:hover:after {
+  width: 100%;
+}
+
+/* Links Inside <li></li> */
+li a {
+      text-decoration: none;
+      position: relative;
+}
+
+li a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #DDD;
+  transition: 0.4s;
+}
+
+li a:hover:after {
+  width: 100%;
+}
+
+ul > li {
+  transition: 250ms;
+    opacity: 1.0;
+}
+
+ul:hover > li:not(:hover) {
+  transition: 250ms;
+    opacity: 0.5;
+}
+
+/**********
+**PADDING**
+**********/
+.row {
+  padding-top: 1em;
+}
+
+.columns {
+  padding-bottom: 1em;
+}
+
+/****************************
+**TITLES & SUBTITLES & SHIT**
+****************************/
+.title {
+  transition: 250ms;
+  font-weight: 400;
+  font-size: 2em;
+  padding-top: 5em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.subtitle {
+  transition: 250ms;
+  font-weight: 300;
+  font-size: 1.5em;
+  padding-top: 2em;
+  padding-bottom: 0.25em;
+  text-align: center;
+}
+
+.about {
+  transition: 250ms;
+  font-weight: 400;
+  font-size: 2em;
+  padding-top: 5em;
+  padding-bottom: 0.25em;
+}
+
+/***************
+**HIGHLIGHTING**
+***************/
+::selection {
+  background-color: #000;
+  color: #DDD;
+  }
+
+/**************************
+**STARTED FROM THE BOTTOM**
+**************************/
+.do-the-thing {
+  font-size: 0.5em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  z-index: 2;
+}
+
+.now-we-here {
+  animation:
+    nudge 2s ease-in-out infinite alternate;
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 2em);
+  }
+
+  50% {
+    transform: translate(0, 0);
+  }
+}
+
+/**************
+**IPHONE VIEW**
+**************/
+@media only screen and (max-width: 500px) {
+  body {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  p {
+    transition: 250ms;
+    font-size: 0.9em;
+    line-height: 1.6em;
+  }
+
+  .title {
+    transition: 250ms;
+    font-size: 1.5em;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+
+  .subtitle {
+    transition: 250ms;
+    font-size: 1.25em;
+    padding-top: 1em;
+    padding-bottom: 0.25em;
+    text-align: center;
+  }
+
+  .about {
+    transition: 250ms;
+    font-size: 1.5em;
+    padding-top: 5em;
+    padding-bottom: 0.5em;
+  }
+
+  .navigation {
+    transition: 250ms;
+    z-index: 1;
+    padding-top: 2em;
+  }
+
+  .logo {
+    padding-left: 1.25em;
+  }
+
+  .videoWrapper {
+    transition: 250ms;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  }
+
+  .videoWrapper iframe {
+    transition: 250ms;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+}
+
+/************************************
+*************CSS GRAVEYARD***********
+************************************/
+
+/******************
+**FANCY SCROLLBAR**
+******************/
+/*
+::-webkit-scrollbar-thumb:vertical {
+  background-color:#000;
+  border: 0px transparent;
+  }
+
+::-webkit-scrollbar-thumb:horizontal {
+  background-color:#000;
+  border: 3px transparent;
+  }
+
+::-webkit-scrollbar {
+  overflow: scroll;
+  height:5px;
+  width:5px;
+  background-color: transparent;
+  }
+*/
+
+/* no dot = its own element and with a dot , its a class
+footer {
+  top right bottom left
+  padding: 1em 0 1em 0;
+  background-color: #000;
+  color: #fff;
+}
+*/
+
+footer {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  height: 10em;
+}
