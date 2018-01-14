@@ -394,6 +394,11 @@ ul:hover > li:not(:hover) {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
   }
+
+  .blogs {
+    text-align: center;
+  }
+
   /*ABOUT PAGE*/
   .socials .columns {
     padding-top: 0em;
