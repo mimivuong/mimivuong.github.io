@@ -264,15 +264,6 @@ ul:hover > li:not(:hover) {
   padding-bottom: 0.25em;
 }
 
-.maintitle {
-  transition: 250ms;
-  font-weight: 400;
-  font-size: 2em;
-  padding-top: 5em;
-  padding-bottom: 2em;
-  text-align: center;
-}
-
 .socials {
   letter-spacing: 0.05em;
 }
@@ -336,6 +327,10 @@ ul:hover > li:not(:hover) {
 /**************
 **IPHONE VIEW**
 **************/
+@media screen and (min-width: 1000px) {
+  .rwd-break {display: none;}
+}
+
 @media only screen and (max-width: 1000px) {
   body {
     padding-left: 0.5em;
@@ -400,15 +395,6 @@ ul:hover > li:not(:hover) {
     font-size: 1.5em;
     padding-top: 5em;
     padding-bottom: 0.5em;
-  }
-
-  .maintitle {
-    transition: 250ms;
-    font-size: 1.25em;
-    padding-top: 3.5em;
-    padding-bottom: 1em;
-    margin-left: 4.2em;
-    margin-right: 4.2em;
   }
 
   .row {
