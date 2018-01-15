@@ -315,6 +315,14 @@ ul:hover > li:not(:hover) {
   }
 }
 
+/******
+**404**
+******/
+.columns .error {
+  font-size: 10em;
+  padding-top: 1.5em;
+  text-align: center;
+}
 
 /**************
 **IPHONE VIEW**
