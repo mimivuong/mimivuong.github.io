@@ -407,8 +407,8 @@ ul:hover > li:not(:hover) {
     font-size: 1.25em;
     padding-top: 3.5em;
     padding-bottom: 1em;
-    margin-left: 1.25em;
-    margin-right: 1.25em;
+    margin-left: 1.75em;
+    margin-right: 1.75em;
   }
 
   .row {
