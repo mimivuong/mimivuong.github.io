@@ -242,7 +242,7 @@ ul:hover > li:not(:hover) {
   transition: 250ms;
   font-weight: 400;
   font-size: 2em;
-  padding-top: 4em;
+  padding-top: 3em;
   padding-bottom: 2em;
   text-align: center;
 }
