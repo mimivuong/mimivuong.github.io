@@ -31,7 +31,7 @@ p {
 
 .logo {
   float: left;
-  padding-left: 3em;
+  padding-left: 4em;
   transition: 500ms;
 }
 
@@ -41,7 +41,7 @@ p {
 }
 
 ul {
-  padding-right: 3em;
+  padding-right: 4em;
   }
 
 li {
