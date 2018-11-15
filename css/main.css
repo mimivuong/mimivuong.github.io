@@ -26,12 +26,12 @@ p {
   z-index: 1;
   position: fixed;
   width: 100%; /* Crucial, especially when position is fixed */
-  padding-top: 4em;
+  padding-top: 5em;
 }
 
 .logo {
   float: left;
-  padding-left: 4em;
+  padding-left: 5em;
   transition: 500ms;
 }
 
@@ -41,13 +41,13 @@ p {
 }
 
 ul {
-  padding-right: 4em;
+  padding-right: 5em;
   }
 
 li {
     display: inline;
     float: right;
-    padding-left: 1.5em;
+    padding-left: 5em;
     letter-spacing: 0.05em;
   }
 
@@ -138,6 +138,10 @@ li a:hover:after {
 ul > li {
   transition: 250ms;
     opacity: 1.0;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
 }
 
 ul:hover > li:not(:hover) {
