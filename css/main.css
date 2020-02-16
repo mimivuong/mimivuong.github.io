@@ -2,21 +2,47 @@
 **BODY**
 *******/
 
-
 body {
-  background-color: #323334;
-  font-family: 'neuzeit-grotesk', 'Source Sans Pro', sans-serif;
-  font-weight: 300;
-  font-size: 1.1em;
-  color: #DDDDDD;
   background-image: url(../img/bg.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: fixed;
+
+  background-color: #323334;
+  font-family: 'neuzeit-grotesk', 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 1.1em;
+  color: #DDDDDD;
+
+  -webkit-animation: bgcolor 20s infinite;
+  animation: bgcolor 10s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }
+
+@keyframes bgcolor {
+    0% {
+        background-color: #000000
+    }
+
+    30% {
+        background-color: #0000ff
+    }
+
+    60% {
+        background-image: #eb670f
+    }
+
+    90% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #864cbf
+    }
 }
+
 
 p {
   transition: 250ms;
