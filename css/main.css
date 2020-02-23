@@ -3,25 +3,22 @@
 *******/
 
 body {
-  background-image: url(../img/bg.jpg);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 
-  background-color: #323334;
+  background-color: #171717;
   font-family: 'neuzeit-grotesk', 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-size: 1.1em;
   color: #DDDDDD;
+}
 
-  -webkit-animation: bgcolor 20s infinite;
+/*
+  -webkit-animation: bgcolor 10s infinite;
   animation: bgcolor 10s infinite;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
 }
 
-@keyframes bgcolor {
+ @keyframes bgcolor {
     0% {
         background-color: #000000
     }
@@ -42,6 +39,7 @@ body {
         background-color: #864cbf
     }
 }
+*/
 
 
 p {
@@ -203,7 +201,7 @@ ul:hover > li:not(:hover) {
 ***VIDEO***
 **********/
 .videoWrapper {
-  transition: 250ms;
+  transition: 350ms;
 }
 
 .videoWrapper iframe {
