@@ -12,32 +12,33 @@ body {
 }
 
 
-  -webkit-animation: bgcolor 10s infinite;
-  animation: bgcolor 10s infinite;
-  -webkit-animation-direction: alternate;
-  animation-direction: alternate;
+background: linear-gradient(180deg, #ff6969, #008594);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 9s ease infinite;
+-moz-animation: AnimationName 9s ease infinite;
+-o-animation: AnimationName 9s ease infinite;
+animation: AnimationName 9s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
 }
-
- @keyframes bgcolor {
-    0% {
-        background-color: #000000
-    }
-
-    30% {
-        background-color: #0000ff
-    }
-
-    60% {
-        background-image: #eb670f
-    }
-
-    90% {
-        background-color: #f35
-    }
-
-    100% {
-        background-color: #864cbf
-    }
+@-moz-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
 }
 
 
