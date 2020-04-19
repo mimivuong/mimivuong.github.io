@@ -201,7 +201,7 @@ ul:hover > li:not(:hover) {
 ***VIDEO***
 **********/
 .videoWrapper {
-  transition: 350ms;
+  transition: 250ms;
 }
 
 .videoWrapper iframe {
