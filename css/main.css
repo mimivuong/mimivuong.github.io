@@ -4,7 +4,8 @@
 
 body {
 
-  background-color: #171717;
+  background: linear-gradient(180deg, #ff6969, #008594);
+  background-size: 400% 400%;
   font-family: 'neuzeit-grotesk', 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-size: 1.1em;
@@ -12,8 +13,7 @@ body {
 }
 
 
-background: linear-gradient(180deg, #ff6969, #008594);
-background-size: 400% 400%;
+
 
 -webkit-animation: AnimationName 9s ease infinite;
 -moz-animation: AnimationName 9s ease infinite;
