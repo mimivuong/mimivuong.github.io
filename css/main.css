@@ -3,39 +3,39 @@
 *******/
 
 body {
-  background: linear-gradient(180deg, #ff6969, #008594);
-  background-size: 400% 400%;
-  -webkit-animation: mimi-vuong 9s ease infinite;
-  -moz-animation: mimi-vuong 9s ease infinite;
-  -o-animation: mimi-vuong 9s ease infinite;
-  animation: mimi-vuong 9s ease infinite;
-  @-webkit-keyframes mimi-vuong {
-      0%{background-position:50% 0%}
-      50%{background-position:51% 100%}
-      100%{background-position:50% 0%}
-  }
-  @-moz-keyframes mimi-vuong {
-      0%{background-position:50% 0%}
-      50%{background-position:51% 100%}
-      100%{background-position:50% 0%}
-  }
-  @-o-keyframes mimi-vuong {
-      0%{background-position:50% 0%}
-      50%{background-position:51% 100%}
-      100%{background-position:50% 0%}
-  }
-  @keyframes mimi-vuong {
-      0%{background-position:50% 0%}
-      50%{background-position:51% 100%}
-      100%{background-position:50% 0%}
-  }
+  -webkit-animation: bgcolor 30s infinite;
+  animation: bgcolor 30s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 
+  background-color: #171717;
   font-family: 'neuzeit-grotesk', 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-size: 1.1em;
   color: #DDDDDD;
 }
 
+ @keyframes bgcolor {
+    0% {
+        background-color: #171717
+    }
+
+    25% {
+        background-color: #030075
+    }
+
+    50% {
+        background-color: #CE2941
+    }
+
+    75% {
+        background-color: #C4AB16
+    }
+
+    100% {
+        background-color: #00A08D
+    }
+}
 
 
 p {
