@@ -3,8 +3,8 @@
 *******/
 
 body {
-  -webkit-animation: bgcolor 30s infinite;
-  animation: bgcolor 30s infinite;
+  -webkit-animation: bgcolor 60s infinite;
+  animation: bgcolor 60s infinite;
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
 
@@ -21,19 +21,19 @@ body {
     }
 
     25% {
-        background-color: #030075
+        background-color: #C93551
     }
 
     50% {
-        background-color: #CE2941
+        background-color: #E2AF0A
     }
 
     75% {
-        background-color: #C4AB16
+        background-color: #00B5B0
     }
 
     100% {
-        background-color: #00A08D
+        background-color: #171717
     }
 }
 
@@ -43,7 +43,7 @@ p {
   font-family: 'neuzeit-grotesk', 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-size: 1em;
-  line-height: 1.8em;
+  line-height: 1.5em;
   color: #DDDDDD;
 }
 
@@ -265,8 +265,8 @@ ul:hover > li:not(:hover) {
 **PADDING**
 **********/
 .row {
-  padding-top: 0.9em;
-  padding-bottom: 0.9em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 /****************************
@@ -450,6 +450,11 @@ ul:hover > li:not(:hover) {
     padding-top: 0em;
     padding-bottom: 0em;
   }
+
+  .clients .columns {
+    padding-top: 0em;
+    padding-bottom: 0em;
+  }
 }
 
 /************************************
@@ -486,3 +491,75 @@ footer {
   color: #fff;
 }
 */
+
+
+
+/**
+<!--LOGOS-->
+<div class="row">
+  <div class="large-2 large-push-3 columns">
+    <!--LET'S BOUNCE-->
+    <div class="animation-element bounce-up">
+      <div class="blogs">
+        <div class="subject">
+          <img src="img/logos/adidas.png"/>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="large-2 large-push-3 columns">
+    <!--LET'S BOUNCE-->
+    <div class="animation-element bounce-up">
+      <div class="blogs">
+        <div class="subject">
+          <img src="img/logos/canon.png"/>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="large-2 large-pull-3 columns">
+    <!--LET'S BOUNCE-->
+    <div class="animation-element bounce-up">
+      <div class="blogs">
+        <div class="subject">
+            <img src="img/logos/hxouse.png"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--LOGOS-->
+<div class="row">
+  <div class="large-2 large-push-3 columns">
+    <!--LET'S BOUNCE-->
+    <div class="animation-element bounce-up">
+      <div class="blogs">
+        <div class="subject">
+          <img src="img/logos/hypebeast.png"/>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="large-2 large-push-3 columns">
+    <!--LET'S BOUNCE-->
+    <div class="animation-element bounce-up">
+      <div class="blogs">
+        <div class="subject">
+          <img src="img/logos/hypebae.png"/>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="large-2 large-pull-3 columns">
+    <!--LET'S BOUNCE-->
+    <div class="animation-element bounce-up">
+      <div class="blogs">
+        <div class="subject">
+            <img src="img/logos/manifesto.png"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+**/
